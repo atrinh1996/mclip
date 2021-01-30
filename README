@@ -1,0 +1,37 @@
+#
+# README
+#
+# Author: Amy B.
+#
+
+PURPOSE
+---------------------------
+    Copy lines of text associated with a single word keyphrase, 
+    to be pasted as a body of text for messaging (i.e. email).
+    Messages regard scheduling/follow-ups.
+
+ACKNOWLEDGEMENTS
+---------------------------
+    Short project idea taken from:
+        Automate the Boring Stuff with Python
+        By Al Sweigart
+
+FILES
+---------------------------
+    - README:       this file
+    - mclip.py:     main program driver.
+
+
+RUN
+---------------------------
+    Run with:
+        python mclip.py [keyphrase]
+
+    - or with a batch file:
+
+        mclip [keyphrase]
+
+
+BUGS/Notes
+---------------------------
+    Currently handles 3 keyphrases (see TEXT in program file)
